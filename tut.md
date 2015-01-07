@@ -81,9 +81,9 @@ http://dawil.github.com/hask-tut/(fib 12).html
 - map (+1) [1,2,3,4]
 - map addOne [1,2,3,4]
 - let sum = foldr (+) 0 [1,2,3]
-- let sumTwoLists = sum . zipWith (+)
+- let sumTwoLists = sum (zipWith (+) [1..5000] [1,-1..(-333)])
 
-http://dawil.github.com/hask-tut/(sumTwoLists [1..5000] [1,-1..(-333)]).html
+http://dawil.github.com/hask-tut/( sumTwoLists ).html
 
 # 1.3 - Control Flow: Looping and If-Statements
 

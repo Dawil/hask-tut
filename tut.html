@@ -166,9 +166,9 @@
 <li>map (+1) [1,2,3,4]</li>
 <li>map addOne [1,2,3,4]</li>
 <li>let sum = foldr (+) 0 [1,2,3]</li>
-<li><p>let sumTwoLists = sum . zipWith (+)</p></li>
+<li><p>let sumTwoLists = sum (zipWith (+) [1..5000] [1,-1..(-333)])</p></li>
 </ul>
-<p>http://dawil.github.com/hask-tut/(sumTwoLists [1..5000] [1,-1..(-333)]).html</p>
+<p>http://dawil.github.com/hask-tut/( sumTwoLists ).html</p>
 </section>
 <section id="control-flow-looping-and-if-statements" class="slide level1">
 <h1>1.3 - Control Flow: Looping and If-Statements</h1>
